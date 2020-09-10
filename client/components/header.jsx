@@ -1,8 +1,11 @@
 import React from 'react';
 
-function Header(props) {
+function Header() {
+
   return (
-    <h1 >Grade Table</h1>
+
+    <h1 className="header">Grade Table</h1>
+
   );
 }
 

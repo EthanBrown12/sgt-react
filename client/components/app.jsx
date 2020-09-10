@@ -6,7 +6,24 @@ class App extends React.Component {
     this.state = {
       grades: []
     };
+
   }
+
+  // componentDidMount() {
+  //   this.getGrades();
+  // }
+
+  // getGrades() {
+  //   const gradesRequest = new Request('/api/grades');
+  //   const options = {
+  //     method: 'GET'
+  //   };
+  //   fetch(gradesRequest, options)
+  //     .then(res => res.json())
+  //     .then(grades => this.setState({
+  //       grades
+  //     }));
+  // }
 
   render() {
     return (
